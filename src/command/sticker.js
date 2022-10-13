@@ -26,13 +26,12 @@ export default class Sticker extends Base {
         media,
         sendMediaAsSticker: true,
       });
-    }
-
       
-    } catch(e) {
-    console.clear()
-    console.log(e);
-    console.log("erro noo comand");
+    } catch (e) {
+      console.clear()
+      console.log(e);
+      console.log("erro noo comand");
 
+    }
   }
 }
